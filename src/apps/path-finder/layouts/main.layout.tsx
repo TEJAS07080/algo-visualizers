@@ -7,7 +7,7 @@ function MainLayout() {
   return (
     <>
       <ThemeIcon top={10} right={20} />
-      <Navbar title="Path Finder" />
+      <Navbar/>
       <Controller />
 
       <main className="text-center">

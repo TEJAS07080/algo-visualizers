@@ -6,7 +6,7 @@ function Index() {
   return (
     <>
       <ThemeIcon top={10} right={20} />
-      <Navbar title="Algograph" />
+      <Navbar/>
       <Challenges />
     </>
   );

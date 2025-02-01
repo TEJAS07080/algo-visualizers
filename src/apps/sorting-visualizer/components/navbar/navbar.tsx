@@ -2,14 +2,13 @@ import { NavLink } from 'react-router-dom';
 import classes from './navbar.module.scss';
 import hamIcon from '/icons/ham.svg';
 import { useState } from 'react';
-import Title from '@/lib/components/title/title';
 
 export interface Props {
   title: string;
   menuItems: string[];
 }
 
-function Navbar({ title, menuItems }: Props) {
+function Navbar({ menuItems }: Props) {
   const [toggle, setToggle] = useState(false);
 
   return (

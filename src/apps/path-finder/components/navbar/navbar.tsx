@@ -7,7 +7,7 @@ export interface Props {
   children?: React.ReactNode;
 }
 
-function Navbar({ title }: Props) {
+function Navbar() {
   return (
     <nav className={classes.navbar}>
       <div className={classes.left}>

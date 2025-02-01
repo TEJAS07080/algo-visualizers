@@ -2,11 +2,9 @@ import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import classes from './title.module.scss';
 
-interface Props {
-  title: string;
-}
 
-function Title({ title }: Props) {
+
+function Title() {
   return (
     <div className={classes.title}>
       <Link to="/" className={classes.home}>
